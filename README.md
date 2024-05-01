@@ -1,5 +1,6 @@
 # Gradio
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+[![R-CMD-check](https://github.com/lgnbhl/gradio/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/lgnbhl/gradio/actions/workflows/R-CMD-check.yaml)
 
 **gradio** aims to allow the creation of [Gradio web interfaces](https://www.gradio.app/) directly from R using the <a href="https://rstudio.github.io/reticulate/" target="_blank">reticulate</a> R package under the hood.
 
