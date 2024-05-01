@@ -66,7 +66,7 @@ demo$launch()
 
 **ANY HELP VERY WELCOMED!**
 
-[ ] run *gradio* with Docker.
+- run *gradio* with Docker.
 
 Failing to run Gradio chatbot due to error message:
     
