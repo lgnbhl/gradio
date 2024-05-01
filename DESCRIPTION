@@ -1,0 +1,28 @@
+Package: gradio
+Title: Access 'Gradio' web interface
+Version: 0.0.1
+Authors@R: 
+  c(person("Felix", "Luginbuhl", ,"felix.luginbuhl@protonmail.ch", role = c("aut", "cre", "cph"),
+      comment = c(ORCID = "0009-0008-6625-2899"))
+    )
+Maintainer: Felix Luginbuhl <felix.luginbuhl@protonmail.ch>
+Description: An R wrapper to the 'Gradio' web interface.
+URL: https://github.com/lgnbhl/gradio
+License: MIT + file LICENSE
+SystemRequirements: Python, Conda
+BugReports: https://github.com/lgnbhl/gradio/issues
+Config/reticulate:
+    list(
+      packages = list(
+        list(package = "gradio")
+      )
+    )
+Depends:
+    R (>= 3.5)
+Imports: 
+    reticulate
+Suggests: 
+    testthat (>= 3.0.0)
+Encoding: UTF-8
+RoxygenNote: 7.3.1
+Config/testthat/edition: 3
