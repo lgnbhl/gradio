@@ -18,7 +18,7 @@ install_gradio()
 
 ## `Interface()`
 
-Example using the `Interface()` function. 
+Example using the `Interface()` function. Available parameters are listed [here](https://www.gradio.app/docs/gradio/interface).
 
 ```r
 library(gradio)
@@ -39,7 +39,7 @@ demo$launch()
 
 ## `ChatInterface()`
 
-Example using the `ChatInterface()` function.
+Example using the `ChatInterface()` function. Available parameters are listed [here](https://www.gradio.app/docs/gradio/chatinterface).
 
 ```r
 library(gradio)
