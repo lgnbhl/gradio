@@ -14,7 +14,9 @@ remotes::install_github("lgnbhl/gradio")
 Install gradio Python library:
 
 ```r
-install_gradio()
+library(gradio)
+
+gradio::install_gradio()
 ```
 
 ## `Interface()`
