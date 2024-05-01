@@ -1,6 +1,8 @@
 # Gradio
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 
+**gradio** aims to allow the creation of [Gradio web interfaces](https://www.gradio.app/) directly from R using the <a href="https://rstudio.github.io/reticulate/" target="_blank">reticulate</a> R package under the hood.
+
 ## Install
 
 ```r
@@ -8,7 +10,7 @@ library(remotes)
 remotes::install_github("lgnbhl/gradio")
 ```
 
-### install gradio
+Install gradio Python library:
 
 ```r
 install_gradio()
