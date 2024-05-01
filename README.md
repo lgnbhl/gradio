@@ -72,7 +72,7 @@ Failing to run Gradio chatbot due to error message:
     
     "C stack usage too close to the limit".
 
-See "[data-raw]()" folder for reproducible example.
+See "[data-raw](https://github.com/lgnbhl/gradio/tree/main/data-raw)" folder for reproducible example.
 
 ### Dockerfile
 
