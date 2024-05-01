@@ -3,3 +3,4 @@
 data-raw
 flagged
 ^\.github$
+^LICENSE\.md$
