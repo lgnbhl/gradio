@@ -1,8 +1,4 @@
-library(reticulate)
-
-#py_install("gradio", method = "conda")
-
-gr <- reticulate::import("gradio")
+library(gradio)
 
 my_function <- function(message = NULL, history = NULL) {
   return(message)
@@ -10,19 +6,5 @@ my_function <- function(message = NULL, history = NULL) {
 
 demo <- ChatInterface(fn = my_function)
 demo$launch(
-  #server_name = '0.0.0.0' # remove for testing
-)
-
-greet <- function(name) {
-  return(paste0("Hello, ", name , "!"))
-}
-
-demo = gr$Interface(
-  fn=greet,
-  inputs= list("text"),
-  outputs= list("text"),
-)
-
-demo$launch(
-  server_name = "0.0.0.0"
+  server_name = '0.0.0.0' # remove for testing
 )

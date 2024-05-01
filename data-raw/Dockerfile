@@ -9,6 +9,7 @@ COPY app.R app.R
 ## Install R packages
 RUN R -q -e 'install.packages("remotes")'
 RUN R -q -e 'remotes::install_github("rstudio/reticulate")'
+RUN R -q -e 'remotes::install_github("lgnbhl/gradio")'
 
 # Install gradio
 RUN R -q -e 'reticulate::install_miniconda()'

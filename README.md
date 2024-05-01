@@ -91,6 +91,7 @@ COPY app.R app.R
 ## Install R packages
 RUN R -q -e 'install.packages("remotes")'
 RUN R -q -e 'remotes::install_github("rstudio/reticulate")'
+RUN R -q -e 'remotes::install_github("lgnbhl/gradio")'
 
 # Install gradio
 RUN R -q -e 'reticulate::install_miniconda()'
@@ -124,11 +125,11 @@ demo$launch()
 ### Docker commands
 
 ```
-docker build -t gradio-app-r .
+docker build -t gradio-r .
 ```
 
 ```
-docker run -p 7860:7860 gradio-app-r
+docker run -p 7860:7860 gradio-r
 ```
 
     Module(gradio)
